@@ -1,0 +1,28 @@
+
+ 
+.tv_card {
+    width: 140px;
+    height: 140px;
+    background-size: cover !important;
+    background-position: center !important;
+    margin:0;
+    margin-right: 6%;
+  }
+  
+  .movie_card {
+    width: 140px;
+    height: 180px;
+    background-size: cover !important;
+    background-position: center !important;
+  }
+  
+  .card {
+    width: 180px;
+    height: 70px;
+    background-size: cover !important;
+    background-position: center !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }

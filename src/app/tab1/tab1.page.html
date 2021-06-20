@@ -1,0 +1,63 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Tab 1
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-slides [options]="slidesOptionsTop">
+    <ion-slide>
+      <ion-card [style.background]="'url(./assets/images/flash.jpg)'" class="card">
+        <h4>Categories</h4>
+      </ion-card>
+    </ion-slide>
+    <ion-slide >
+      <ion-card [style.background]="'url(./assets/images/black.jpg)'" class="card">
+        <h4>Showing tonight</h4>
+      </ion-card>
+    </ion-slide>
+    <ion-slide >
+      <ion-card [style.background]="'url(./assets/images/star.jpg)'" class="card">
+        <h4>New Releases</h4>
+      </ion-card>
+    </ion-slide> 
+  </ion-slides>
+    <ion-item lines="none">
+      <p slot="start">TV Show</p>
+      <ion-icon name="arrow-forward" slot="end"></ion-icon>
+    </ion-item>
+    <ion-slides [options]="slidesOptions">
+      <ion-slide>
+        <ion-card [style.background]="'url(./assets/images/stranger.jpg)'" class="tv_card"></ion-card>
+      </ion-slide> 
+      <ion-slide>
+        <ion-card [style.background]="'url(./assets/images/black.jpg)'" class="tv_card"></ion-card>
+      </ion-slide>
+      <ion-slide>
+        <ion-card [style.background]="'url(./assets/images/super.jpg)'" class="tv_card"></ion-card>
+      </ion-slide>
+      <ion-slide>
+        <ion-card [style.background]="'url(./assets/images/flash.jpg)'" class="tv_card"></ion-card>
+      </ion-slide>   
+    </ion-slides>
+    <ion-item lines="none">
+      <p slot="start">Movies</p>
+      <ion-icon name="arrow-forward" slot="end"></ion-icon>
+    </ion-item>
+    <ion-slides [options]="slidesOptions">
+      <ion-slide>
+        <ion-card [style.background]="'url(./assets/images/ecualizer.jpg)'" class="movie_card"></ion-card>
+      </ion-slide> 
+      <ion-slide>
+        <ion-card [style.background]="'url(./assets/images/avengers.jpg)'"  class="movie_card"></ion-card>
+      </ion-slide>
+      <ion-slide>
+        <ion-card [style.background]="'url(./assets/images/spy.jpg)'"  class="movie_card"></ion-card>
+      </ion-slide>
+      <ion-slide>
+        <ion-card [style.background]="'url(./assets/images/pixels.jpg)'"  class="movie_card"></ion-card>
+      </ion-slide>   
+    </ion-slides>
+</ion-content>
