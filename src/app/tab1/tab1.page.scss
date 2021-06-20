@@ -1,28 +1,31 @@
 
+ion-toolbar {
+  --background: rgba(0, 0, 0,.6);
+}
+
+ion-content{
+  --padding-start:8px;
+  --padding-end: 8px;
+}
+
+.cards {
+  margin-bottom: 1.2rem;
+      h2{
+      font-size: 1em;
+      font-weight: 600; 
+      line-height: 1.3;
+      margin: 0;
+      margin-bottom: 0.2rem;
+      }
+
+      ion-card{
+        width: 160px;
+        height: 140px;
+        background-size: cover !important;
+        background-position: center !important;
+        margin:0;
+        
+      }
+}
  
-.tv_card {
-    width: 140px;
-    height: 140px;
-    background-size: cover !important;
-    background-position: center !important;
-    margin:0;
-    margin-right: 6%;
-  }
   
-  .movie_card {
-    width: 140px;
-    height: 180px;
-    background-size: cover !important;
-    background-position: center !important;
-  }
-  
-  .card {
-    width: 180px;
-    height: 70px;
-    background-size: cover !important;
-    background-position: center !important;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-  }

@@ -1,0 +1,3 @@
+https://devdactic.com/netflix-ui-with-ionic/
+
+https://forum.ionicframework.com/t/ionic-5-angular-10-hide-header-on-scroll/207198
